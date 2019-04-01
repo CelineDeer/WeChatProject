@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "page/component/index",
+    "page/API/index",
+    "page/cloud/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/button/button"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#c73815",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/component/index",
+        "iconPath": "image/icon_book_shell.png",
+        "selectedIconPath": "image/icon_book_shell_press.png",
+        "text": "书架"
+      },
+      {
+        "pagePath": "page/API/index",
+        "iconPath": "image/icon_find.png",
+        "selectedIconPath": "image/icon_find_press.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "page/cloud/index",
+        "iconPath": "image/icon_ac.png",
+        "selectedIconPath": "image/icon_ac_press.png",
+        "text": "优惠"
+      },
+      {
+        "pagePath": "page/cloud/index",
+        "iconPath": "image/icon_mine.png",
+        "selectedIconPath": "image/icon_mine_press.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
